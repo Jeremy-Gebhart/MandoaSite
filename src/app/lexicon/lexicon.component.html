@@ -1,55 +1,31 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Mando'a Vocabulary</title>
+﻿<nav-bar></nav-bar>
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/mandoscript.css">
+<div class="row">
+    <div class="col-sm-4 col-md-8">
+        <h4>Select the letter to see a vocabulary list of words that begin with that letter.</h4><br/>
+        <a class="btn btn-sm" id="aWordsLink">A</a>
+        <a class="btn btn-sm" id="bWordsLink">B</a>
+        <a class="btn btn-sm" id="cWordsLink">C</a>
+        <a class="btn btn-sm" id="dWordsLink">D</a>
+        <a class="btn btn-sm" id="eWordsLink">E</a>
+        <a class="btn btn-sm" id="gWordsLink">G</a>
+        <a class="btn btn-sm" id="hWordsLink">H</a>
+        <a class="btn btn-sm" id="iWordsLink">I</a>
+        <a class="btn btn-sm" id="jWordsLink">J</a>
+        <a class="btn btn-sm" id="kWordsLink">K</a>
+        <a class="btn btn-sm" id="lWordsLink">L</a>
+        <a class="btn btn-sm" id="mWordsLink">M</a>
+        <a class="btn btn-sm" id="nWordsLink">N</a>
+        <a class="btn btn-sm" id="oWordsLink">O</a>
+        <a class="btn btn-sm" id="pWordsLink">P</a>
+        <a class="btn btn-sm" id="rWordsLink">R</a>
+        <a class="btn btn-sm" id="sWordsLink">S</a>
+        <a class="btn btn-sm" id="tWordsLink">T</a>
+        <a class="btn btn-sm" id="uWordsLink">U</a>
+        <a class="btn btn-sm" id="vWordsLink">V</a>
+        <a class="btn btn-sm" id="wWordsLink">W</a>
+        <a class="btn btn-sm" id="yWordsLink">Y</a>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/vocabularyHelper.js"></script>
-</head>
-<body>
-    <div class="panel col-md-10 col-lg-offset-1">
-        <div class="row">
-            <div class="col-sm-4 col-md-8 col-lg-12">
-                <ul class="nav nav-pills">
-                    <li role="presentation"><a href="index.html">Home</a></li>
-                    <li role="presentation"><a href="vocabulary.html">Vocabulary</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-md-8">
-                <h4>Select the letter to see a vocabulary list of words that begin with that letter.</h4><br/>
-                <a class="btn btn-sm" id="aWordsLink">A</a>
-                <a class="btn btn-sm" id="bWordsLink">B</a>
-                <a class="btn btn-sm" id="cWordsLink">C</a>
-                <a class="btn btn-sm" id="dWordsLink">D</a>
-                <a class="btn btn-sm" id="eWordsLink">E</a>
-                <a class="btn btn-sm" id="gWordsLink">G</a>
-                <a class="btn btn-sm" id="hWordsLink">H</a>
-                <a class="btn btn-sm" id="iWordsLink">I</a>
-                <a class="btn btn-sm" id="jWordsLink">J</a>
-                <a class="btn btn-sm" id="kWordsLink">K</a>
-                <a class="btn btn-sm" id="lWordsLink">L</a>
-                <a class="btn btn-sm" id="mWordsLink">M</a>
-                <a class="btn btn-sm" id="nWordsLink">N</a>
-                <a class="btn btn-sm" id="oWordsLink">O</a>
-                <a class="btn btn-sm" id="pWordsLink">P</a>
-                <a class="btn btn-sm" id="rWordsLink">R</a>
-                <a class="btn btn-sm" id="sWordsLink">S</a>
-                <a class="btn btn-sm" id="tWordsLink">T</a>
-                <a class="btn btn-sm" id="uWordsLink">U</a>
-                <a class="btn btn-sm" id="vWordsLink">V</a>
-                <a class="btn btn-sm" id="wWordsLink">W</a>
-                <a class="btn btn-sm" id="yWordsLink">Y</a>
-
-            </div>
-            <div class="col-md-8" id="vocabTable">Loading, Please wait....</div>
-        </div>
     </div>
-</body>
-</html>
+    <div class="col-md-8" id="vocabTable">Loading, Please wait....</div>
+</div>

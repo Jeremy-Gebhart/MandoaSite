@@ -13,5 +13,4 @@ import 'script!jquery';
 import 'foundation-sites/dist/js/foundation.js';
 
 // Twitter Bootstrap
-import './css/bootstrap.css'
-import './js/bootstrap.js'
+require('bootstrap');
