@@ -13,7 +13,7 @@ module.exports = {
 
   resolve: {
     modulesDirectories: ['node_modules'],
-    extensions: ['', '.js', '.ts', '.scss']
+    extensions: ['', '.js', '.ts', '.css']
   },
 
   module: {
