@@ -12,17 +12,23 @@ import { WordEntry } from '../shared/models/word-entry';
 })
 export class LexiconComponent {
     entryArray: WordEntry[];
+    showTable: boolean = false;
 
-    constructor(private dataSVC: DataRetrievalService) {}
+    constructor(private dataSVC: DataRetrievalService) { }
 
     loadAVocab() {
-        console.log('loading word list');
         //this.entryArray = this.dataSVC.getWordList('a_vocab'); 
         this.entryArray = [{ // Test Data
             "word": "a, a', al",
             "pronunciation": "[Ah]",
             "definition": "but (often al before a vowel)"
+      },
+      {
+         "word": "aalar",
+         "pronunciation": "[AH-lar]",
+         "definition": "feel"
       }];
+      this.showTable = true;
     }
 
 
