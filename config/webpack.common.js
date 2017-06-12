@@ -37,7 +37,6 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        include: helpers.root('src', 'app'),
         loader: 'raw'
       }
     ]
@@ -50,6 +49,8 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       template: 'src/index.html'
-    })
+    }),
+
+    new ExtractTextPlugin('[name].css')
     ]
 };
