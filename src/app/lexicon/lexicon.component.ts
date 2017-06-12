@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DataRetrievalService } from '../shared/services/data-retrieval.service';
+import { Observable } from 'rxjs/Rx';
 
 import { WordEntry } from '../shared/models/word-entry';
 
@@ -11,23 +12,19 @@ import { WordEntry } from '../shared/models/word-entry';
     ]
 })
 export class LexiconComponent {
-    entryArray: WordEntry[];
+    entryArray: WordEntry[] = [];
     showTable: boolean = false;
 
     constructor(private dataSVC: DataRetrievalService) { }
 
     loadAVocab() {
-        //this.entryArray = this.dataSVC.getWordList('a_vocab'); 
-        this.entryArray = [{ // Test Data
-            "word": "a, a', al",
-            "pronunciation": "[Ah]",
-            "definition": "but (often al before a vowel)"
-      },
-      {
-         "word": "aalar",
-         "pronunciation": "[AH-lar]",
-         "definition": "feel"
-      }];
+        this.dataSVC.getWordList('a_vocab', 'vocab').subscribe(entries => {
+            this.entryArray = entries['items'];
+            console.log(this.entryArray);
+        },
+        err => {
+            console.log(err);
+        }); 
       this.showTable = true;
     }
 

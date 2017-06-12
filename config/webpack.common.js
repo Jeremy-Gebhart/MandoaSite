@@ -31,6 +31,11 @@ module.exports = {
         loader: 'file?name=assets/[name].[hash].[ext]'
       },
       {
+        test:/\.json$/,
+        exclude: /node_modules/,
+        loader: 'raw'
+      },
+      {
         test: /\.css$/,
         include: helpers.root('src', 'app'),
         loader: 'raw'

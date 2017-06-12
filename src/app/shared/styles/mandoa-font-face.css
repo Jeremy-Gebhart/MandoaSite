@@ -1,10 +1,10 @@
-.script {
+.mandoa {
     font-family: "Mandalorian";
     font-size: 14pt;
 }
 
 @font-face {
     font-family: Mandalorian;
-    src: url(http://localhost:8080/shared/styles/mandalor.ttf);
+    src: url(mandalor.ttf);
     font-weight: normal;
 }

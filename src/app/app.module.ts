@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule, JsonpModule } from '@angular/http';
 
 import { AppComponent } from './start/app.component';
 import { HomeComponent } from './home/home.component';
@@ -15,7 +16,9 @@ import { TruncatePipe } from './shared/pipes/trunc.pipe';
 @NgModule({
     imports: [
         BrowserModule,
-        AppRoutingModule
+        AppRoutingModule,
+        HttpModule,
+        JsonpModule
     ],
     exports: [
         TruncatePipe
