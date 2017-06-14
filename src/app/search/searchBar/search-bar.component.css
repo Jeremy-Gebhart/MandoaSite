@@ -1,0 +1,185 @@
+/*#searchicon {
+    display: block;
+}
+
+#toggle {
+    display: none;
+    visibility: hidden;
+}
+
+#searchbox {
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+    color: darkgrey;
+    background-image: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+}
+
+#searchicon::before {
+    
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+#searchicon:hover {
+    color: #fff;
+}
+
+#toggle:checked ~ #searchbox {
+    width: 250px;
+    height: 30px;
+}
+
+#toggle:checked ~ #searchicon::before {
+    content: '-';
+}*/
+
+
+
+/*#searchbox {
+    width: 350px;
+
+}
+#search::-webkit-search-decoration,
+#search::-webkit-search-cancel-button
+#searchbox::-webkit-search-decoration,
+#searchbox::-webkit-search-cancel-button {
+    display: none;
+}
+
+#searchbox {
+    width: 15px;
+    padding: 9px 20px 0 0;
+    color: transparent;
+    cursor: pointer;
+
+    outline: none;
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    font-family: inherit;
+
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+#searchbox:hover {
+    background-color: #fff;
+}
+
+#searchbox:focus {
+    width: 130px;
+    padding: 9px 0 9px 35px;
+    cursor: auto;
+
+    color: #000;
+    background-color: #fff;
+    border-color: #66CC75;
+
+    -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+}
+
+#searchbox:-moz-placeholder {
+    color: #999;
+}
+
+#searchbox::-webkit-input-placeholder {
+    color: #999;
+}
+
+#searchbox:-moz-placeholder {
+    color: transparent;
+}
+
+#searchbox::-webkit-input-placeholder {
+    color: transparent;
+}*/
+
+#searchbox {
+    background-color: #eaf8fc;
+    background-image: linear-gradient(#fff, #d4e8ec);
+    border-radius: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #afc3ca #83afb7;
+    width: 350px;
+    height: 35px;
+    padding: 6px 6px 6px 7px;
+    margin-left: 69%;
+    overflow: hidden;
+}
+
+#search,
+#submit {
+    float: left;
+}
+
+#search {
+    padding: 5px 9px;
+    height: 25px;
+    width: 190px;
+    border: 1px solid #a4c3ca;
+    background: #f1f1f1;
+    border-radius: 50px 3px 3px 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+#submitSearch {
+    background-color: #6cbb6b;
+    background-image: linear-gradient(#95d788, #6cbb6b);
+    border-radius: 3px 50px 50px 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7eba7c #578e57 #447d43;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3),
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 25px;
+    margin: 0 0 0 18px;
+    padding: 0;
+    width: 70px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #23441e;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+#submitSearch:hover {
+    background-color: #95d788;
+    background-image: linear-gradient(#6cbb6b, #95d788);
+}
+
+#submitSearch:active {
+    background: #95d788;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+#submitSearch::-moz-focus-inner {
+    border: 0; /* Small centerting fix for Firefox */
+}
+
+#search::-webkit-input-placeholder {
+   color: #9c9c9c;
+   font-style: italic;
+}
+
+#search:-moz-placeholder {
+   color: #9c9c9c;
+   font-style: italic;
+}
+
+#search:-ms-placeholder {
+   color: #9c9c9c;
+   font-style: italic;
+}

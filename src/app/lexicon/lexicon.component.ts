@@ -15,7 +15,7 @@ export class LexiconComponent {
     constructor(private dataSVC: DataRetrievalService) { }
 
     loadAVocab() {
-        this.dataSVC.getWordList('a_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('a_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -26,7 +26,7 @@ export class LexiconComponent {
     }
 
     loadBVocab() {
-        this.dataSVC.getWordList('b_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('b_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -37,7 +37,7 @@ export class LexiconComponent {
     }
 
     loadCVocab() {
-        this.dataSVC.getWordList('c_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('c_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -48,7 +48,7 @@ export class LexiconComponent {
     }
 
     loadDVocab() {
-        this.dataSVC.getWordList('d_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('d_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -59,7 +59,7 @@ export class LexiconComponent {
     }
 
     loadEVocab() {
-        this.dataSVC.getWordList('e_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('e_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -70,7 +70,7 @@ export class LexiconComponent {
     }
 
     loadGVocab() {
-        this.dataSVC.getWordList('g_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('g_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -81,7 +81,7 @@ export class LexiconComponent {
     }
 
     loadHVocab() {
-        this.dataSVC.getWordList('h_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('h_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -92,7 +92,7 @@ export class LexiconComponent {
     }
 
     loadIVocab() {
-        this.dataSVC.getWordList('i_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('i_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -103,7 +103,7 @@ export class LexiconComponent {
     }
 
     loadJVocab() {
-        this.dataSVC.getWordList('j_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('j_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -114,7 +114,7 @@ export class LexiconComponent {
     }
 
     loadKVocab() {
-        this.dataSVC.getWordList('k_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('k_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -125,7 +125,7 @@ export class LexiconComponent {
     }
 
     loadLVocab() {
-        this.dataSVC.getWordList('l_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('l_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -136,7 +136,7 @@ export class LexiconComponent {
     }
 
     loadMVocab() {
-        this.dataSVC.getWordList('m_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('m_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -147,7 +147,7 @@ export class LexiconComponent {
     }
 
     loadNVocab() {
-        this.dataSVC.getWordList('n_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('n_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -158,7 +158,7 @@ export class LexiconComponent {
     }
 
     loadOVocab() {
-        this.dataSVC.getWordList('o_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('o_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -169,7 +169,7 @@ export class LexiconComponent {
     }
 
     loadPVocab() {
-        this.dataSVC.getWordList('p_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('p_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -180,7 +180,7 @@ export class LexiconComponent {
     }
 
     loadRVocab() {
-        this.dataSVC.getWordList('r_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('r_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -191,7 +191,7 @@ export class LexiconComponent {
     }
 
     loadSVocab() {
-        this.dataSVC.getWordList('s_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('s_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -202,7 +202,7 @@ export class LexiconComponent {
     }
 
     loadTVocab() {
-        this.dataSVC.getWordList('t_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('t_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -213,7 +213,7 @@ export class LexiconComponent {
     }
 
     loadUVocab() {
-        this.dataSVC.getWordList('u_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('u_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -224,7 +224,7 @@ export class LexiconComponent {
     }
 
     loadVVocab() {
-        this.dataSVC.getWordList('v_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('v_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -235,7 +235,7 @@ export class LexiconComponent {
     }
 
     loadWVocab() {
-        this.dataSVC.getWordList('w_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('w_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -246,7 +246,7 @@ export class LexiconComponent {
     }
 
     loadYVocab() {
-        this.dataSVC.getWordList('y_vocab', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('y_vocab', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -257,7 +257,7 @@ export class LexiconComponent {
     }
 
     loadPhrasesVocab() {
-        this.dataSVC.getWordList('phrases', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('phrases', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -268,7 +268,7 @@ export class LexiconComponent {
     }
 
     loadNumbersVocab() {
-        this.dataSVC.getWordList('numbers', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('numbers', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },
@@ -279,7 +279,7 @@ export class LexiconComponent {
     }
 
     loadPrepositionsHVocab() {
-        this.dataSVC.getWordList('prepositions', 'vocab').subscribe(entries => {
+        this.dataSVC.getWordList('prepositions', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
         },

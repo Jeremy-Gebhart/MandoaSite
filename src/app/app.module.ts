@@ -5,8 +5,9 @@ import { HttpModule, JsonpModule } from '@angular/http';
 import { AppComponent } from './start/app.component';
 import { HomeComponent } from './home/home.component';
 import { ErrorComponent} from './error/error.component';
-import { NavComponent } from './shared/navbar.component';
+import { NavComponent } from './shared/navbar/navbar.component';
 import { AppRoutingModule } from './shared/app.routing';
+import { SearchModule } from './search/search.module';
 
 import { WordEntry } from './shared/models/word-entry';
 import { LexiconComponent } from './lexicon/lexicon.component';
@@ -17,6 +18,7 @@ import { TruncatePipe } from './shared/pipes/trunc.pipe';
     imports: [
         BrowserModule,
         AppRoutingModule,
+        SearchModule,
         HttpModule,
         JsonpModule
     ],
