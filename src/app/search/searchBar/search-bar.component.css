@@ -1,111 +1,3 @@
-/*#searchicon {
-    display: block;
-}
-
-#toggle {
-    display: none;
-    visibility: hidden;
-}
-
-#searchbox {
-    height: 0px;
-    overflow: hidden;
-    transition: all 0.5s;
-    color: darkgrey;
-    background-image: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-}
-
-#searchicon::before {
-    
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-}
-
-#searchicon:hover {
-    color: #fff;
-}
-
-#toggle:checked ~ #searchbox {
-    width: 250px;
-    height: 30px;
-}
-
-#toggle:checked ~ #searchicon::before {
-    content: '-';
-}*/
-
-
-
-/*#searchbox {
-    width: 350px;
-
-}
-#search::-webkit-search-decoration,
-#search::-webkit-search-cancel-button
-#searchbox::-webkit-search-decoration,
-#searchbox::-webkit-search-cancel-button {
-    display: none;
-}
-
-#searchbox {
-    width: 15px;
-    padding: 9px 20px 0 0;
-    color: transparent;
-    cursor: pointer;
-
-    outline: none;
-    -webkit-appearance: textfield;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-    font-family: inherit;
-
-    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-    border: solid 1px #ccc;
-
-    -webkit-border-radius: 10em;
-    -moz-border-radius: 10em;
-    border-radius: 10em;
-
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
-}
-
-#searchbox:hover {
-    background-color: #fff;
-}
-
-#searchbox:focus {
-    width: 130px;
-    padding: 9px 0 9px 35px;
-    cursor: auto;
-
-    color: #000;
-    background-color: #fff;
-    border-color: #66CC75;
-
-    -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
-    -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
-    box-shadow: 0 0 5px rgba(109, 207, 246, .5);
-}
-
-#searchbox:-moz-placeholder {
-    color: #999;
-}
-
-#searchbox::-webkit-input-placeholder {
-    color: #999;
-}
-
-#searchbox:-moz-placeholder {
-    color: transparent;
-}
-
-#searchbox::-webkit-input-placeholder {
-    color: transparent;
-}*/
-
 #searchbox {
     background-color: #eaf8fc;
     background-image: linear-gradient(#fff, #d4e8ec);
@@ -113,8 +5,8 @@
     border-width: 1px;
     border-style: solid;
     border-color: #c4d9df #afc3ca #83afb7;
-    width: 350px;
-    height: 35px;
+    width: 377px;
+    height: 38px;
     padding: 6px 6px 6px 7px;
     margin-left: 69%;
     overflow: hidden;
@@ -145,13 +37,14 @@
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3),
                 0 1px 0 rgba(255, 255, 255, 0.3) inset;
     height: 25px;
-    margin: 0 0 0 18px;
+    margin-left: 3px;
     padding: 0;
     width: 70px;
     cursor: pointer;
     font-weight: bold;
     color: #23441e;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    display: inline;
 }
 
 #submitSearch:hover {
@@ -182,4 +75,46 @@
 #search:-ms-placeholder {
    color: #9c9c9c;
    font-style: italic;
+}
+
+.switch {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 8pt;
+    width: 90px;
+    height: 20px;
+    margin-left: 5px;
+    padding: 2px;
+    border-radius: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3),
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+.switch input {
+    display: none;
+    position: absolute
+}
+
+#englishlbl {
+    border-radius: 70px 0 0 70px;
+    /*padding: 0 1px 0 1px;*/
+}
+
+#mandoalbl {
+    border-radius: 0 70px 70px 0;
+    /*padding: 0 1px 0 1px;*/
+}
+
+
+#english:checked + label#englishlbl {
+    background-color: #215dbc;
+    color: #fff;
+}
+
+#mandoa:checked + label#mandoalbl {
+    background-color: #215dbc;
+    color: #fff;
 }

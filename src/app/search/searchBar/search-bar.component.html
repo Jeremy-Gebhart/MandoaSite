@@ -1,5 +1,15 @@
-﻿<section id="searchbox" class="">
-    <input id="search" type="search" placeholder="Type here">
-    <input type="checkbox" id="langSelect">
-    <input id="submitSearch" type="button" value="Search">
-</section>
+﻿<div class="row">
+    <section id="searchbox" class="col-md-4">
+        <form #searchForm="ngForm" (ngSubmit)="searchForTerm()" novalidate>
+            <input id="search" name="search" type="search" [(ngModel)]="searchTerm" placeholder="Type here">
+            <section id="radio-switch" class="switch">
+                <input type="radio" name="langSelect" id="english" [(ngModel)]="langSelect" value="english" checked="checked">
+                <label for="english" id="englishlbl">English</label>
+                <input type="radio" name="langSelect"  id="mandoa" [(ngModel)]="langSelect" value="mandoa">
+                <label for="mandoa" id="mandoalbl">Mando'a</label>
+            </section>
+            <input id="submitSearch" type="button" (click)="searchForTerm()" value="Search">
+        </form>
+    </section>
+    <section class="col-md-8">{{langSelect}} {{searchTerm}}</section>
+</div>

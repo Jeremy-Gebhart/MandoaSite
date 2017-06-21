@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { DataRetrievalService } from '../../shared/services/data-retrieval.service';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'search-bar',
@@ -9,31 +9,15 @@ import { DataRetrievalService } from '../../shared/services/data-retrieval.servi
 })
 export class SearchbarComponent {
 
-    // Properties
-    _searchWord: string;
-    get searchWord(): string {
-        return this._searchWord;
+    langSelect: string = 'english'; // Default search language
+
+    searchTerm: string;
+
+    constructor(private router: Router) {}
+
+    searchForTerm() {
+        let data: string = this.searchTerm + '_' + this.langSelect
+
+        this.router.navigate(['/results', {searchData: data}]);
     }
-
-    set searchWord(value: string) {
-        this._searchWord = value;
-    }
-
-    _langSwitch: string;
-
-    get langSwitch(): string {
-        return this._langSwitch;
-    }
-
-    set langSwitch(value: string) {
-        if (value === 'mandoa' || value === 'english') {
-            this._langSwitch = value;
-        }
-    }
-
-
-    // Methods
-    constructor(private dataSVC: DataRetrievalService) {}
-
-    
 }

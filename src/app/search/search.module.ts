@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 import { SearchbarComponent } from './searchBar/search-bar.component';
 import { SearchComponent } from './searchComponent/search.component';
@@ -12,7 +13,7 @@ const SearchRoutes: Routes = [
         path: 'search',
         component: SearchComponent,
         children: [
-            { path: 'search-results', component: SearchResultsComponent }
+            { path: 'results', component: SearchResultsComponent }
         ]
     }
 ];
@@ -20,6 +21,7 @@ const SearchRoutes: Routes = [
 @NgModule({
     imports: [
         CommonModule,
+        FormsModule,
         RouterModule.forChild(SearchRoutes)
     ],
     exports: [
