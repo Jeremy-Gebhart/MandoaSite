@@ -1,0 +1,22 @@
+<nav-bar></nav-bar>
+
+<div class="row">
+    <table class="table table-striped table-bordered top-margin">
+        <thead>
+            <tr>
+                <td><strong>Word</strong></td>
+                <td><strong>Pronounciation</strong></td>
+                <td><strong>Definition</strong></td>
+                <td><strong>Mando&#39;a Spelling of Word</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let entry of entryArray">
+                <td class="col-md-2 col-sm-1">{{ entry.word }}</td>
+                <td class="col-md-2 col-sm-1">{{ entry.pronunciation }}</td>
+                <td class="col-md-2 col-sm-1">{{ entry.definition }}</td>
+                <td class="mandoa col-md-2 col-sm-1">{{ entry.word }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

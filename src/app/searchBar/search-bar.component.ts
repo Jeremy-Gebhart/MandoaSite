@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-
 import { Router } from '@angular/router';
+
+import { SearchService } from '../shared/services/search.service';
 
 @Component({
     selector: 'search-bar',
@@ -13,11 +14,12 @@ export class SearchbarComponent {
 
     searchTerm: string;
 
-    constructor(private router: Router) {}
+    constructor(private router: Router, private searchSvc: SearchService) {}
 
     searchForTerm() {
         let data: string = this.searchTerm + '_' + this.langSelect
 
-        this.router.navigate(['/results', {searchData: data}]);
+        this.searchSvc.setSearchData(data);
+        this.router.navigate(['/search']);
     }
 }
