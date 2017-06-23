@@ -146,10 +146,12 @@ export class SearchResultsComponent {
             // Update the View
             if (this.searchResults.length > 0) {
                 // Show the table
-                this.showTable = true; 
+                this.showTable = true;
+                this.showError = false;
             } else {
                 // No matches were found
                 this.showError = true;
+                this.showTable = false;
             }
         },
         err => {
