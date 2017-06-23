@@ -19,7 +19,12 @@ export class SearchbarComponent {
     searchForTerm() {
         let data: string = this.searchTerm + '_' + this.langSelect
 
+        // Update the service
         this.searchSvc.setSearchData(data);
-        this.router.navigate(['/search']);
+
+        // No need to change routes if you're already on that page, even if it's a no op.
+        if (this.router.url != '/search') {
+            this.router.navigate(['/search']);
+        }
     }
 }

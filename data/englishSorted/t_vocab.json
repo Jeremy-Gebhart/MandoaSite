@@ -1,0 +1,378 @@
+{
+   "items": [
+      {
+         "word": "kajir",
+         "pronunciation": "KAH-jeer",
+         "definition": "table"
+      },
+      {
+         "word": "hiibir",
+         "pronunciation": "HEE-beer",
+         "definition": "take"
+      },
+      {
+         "word": "Ke serim",
+         "pronunciation": "KEH-se-REEM!",
+         "definition": "Take aim!"
+      },
+      {
+         "word": "muninar",
+         "pronunciation": "moo-NEE-nar",
+         "definition": "tall"
+      },
+      {
+         "word": "lenedat",
+         "pronunciation": "leh-NAY-daht",
+         "definition": "target, contact"
+      },
+      {
+         "word": "isirir",
+         "pronunciation": "ee-SEER-eer",
+         "definition": "taste"
+      },
+      {
+         "word": "get'shuk",
+         "pronunciation": "GEHT-shook",
+         "definition": "Team game similar to meshgeroya, in that there are goals at either end of the pitch, except the players may handle the ball. Very similar to rugby; brutal, fast and painful."
+      },
+      {
+         "word": "chayaikir",
+         "pronunciation": "CHAI-ay-keer",
+         "definition": "tease, barrack, make fun of (not as hostile as mock)"
+      },
+      {
+         "word": "edee",
+         "pronunciation": "ee-DEE",
+         "definition": "teeth"
+      },
+      {
+         "word": "rejorhaa'ir",
+         "pronunciation": "ree-JOR-har-EER",
+         "definition": "tell"
+      },
+      {
+         "word": "jahaatir",
+         "pronunciation": "jeh-HAH-teer",
+         "definition": "tell lies, deceive"
+      },
+      {
+         "word": "narudar",
+         "pronunciation": "nah-ROO-dar",
+         "definition": "temporary ally - specifically your enemy's enemy, where both sides know this is an alliance of convenience and not a lasting pact."
+      },
+      {
+         "word": "vheh'yaim",
+         "pronunciation": "veh-YAYM",
+         "definition": "temporary hut made of wattle and daub, a *basha*"
+      },
+      {
+         "word": "ta'raysh",
+         "pronunciation": "ta-RAYSH",
+         "definition": "ten"
+      },
+      {
+         "word": "Vor entye",
+         "pronunciation": "vor-ENT-yay",
+         "definition": "Thank you (lit. *I accept a debt*)"
+      },
+      {
+         "word": "ori'vor'e",
+         "pronunciation": "AW-ree-VOHR-ay",
+         "definition": "Thanks a lot! Thanks a million!"
+      },
+      {
+         "word": "Vor'e!",
+         "pronunciation": "VOHR-ay",
+         "definition": "Thanks!"
+      },
+      {
+         "word": "ibac",
+         "pronunciation": "ee-BAK",
+         "definition": "that (as in this and that)"
+      },
+      {
+         "word": "Ibac'ner",
+         "pronunciation": "EE-bahk-NAIR",
+         "definition": "That's mine, it's mine."
+      },
+      {
+         "word": "haar",
+         "pronunciation": "har",
+         "definition": "the - definite article - rare and emphatic"
+      },
+      {
+         "word": "te",
+         "pronunciation": "teh",
+         "definition": "the (rarely used)"
+      },
+      {
+         "word": "mandokar",
+         "pronunciation": "MAN-doh-KAR",
+         "definition": "the *right stuff*, the epitome of Mando virtue - a blend of aggression, tenacity, loyalty and a lust for life"
+      },
+      {
+         "word": "Jatnese be te jatnese",
+         "pronunciation": "jat-NAY-say beh jat_NAY-say",
+         "definition": "The best of the best (plural)"
+      },
+      {
+         "word": "manda",
+         "pronunciation": "MAHN-dah",
+         "definition": "the collective soul or heaven - the state of being Mandalorian in mind, body and spirit - also supreme, overarching, guardian-like"
+      },
+      {
+         "word": "Manda'yaim",
+         "pronunciation": "MAN-dah-YAI-eem",
+         "definition": "the planet Mandalore."
+      },
+      {
+         "word": "Traat'aliit gar besbe'trayc",
+         "pronunciation": "Traht-ah-LEET bes-beh-TRAYSH",
+         "definition": "The squad is your weapon"
+      },
+      {
+         "word": "Suum ca'nara",
+         "pronunciation": "Soom CAH-na-RAH",
+         "definition": "the state of blissful rest and peace"
+      },
+      {
+         "word": "ogir",
+         "pronunciation": "OH-gir",
+         "definition": "there"
+      },
+      {
+         "word": "val",
+         "pronunciation": "vahl",
+         "definition": "they, theirs"
+      },
+      {
+         "word": "uj'ayl",
+         "pronunciation": "oo-JAY-ul",
+         "definition": "thick scented syrup used in cooking"
+      },
+      {
+         "word": "shiib",
+         "pronunciation": "sheeb",
+         "definition": "thin"
+      },
+      {
+         "word": "kebise",
+         "pronunciation": "keh-BEE-say",
+         "definition": "things, stuff"
+      },
+      {
+         "word": "mirdir",
+         "pronunciation": "MEER-deer",
+         "definition": "think, calculate"
+      },
+      {
+         "word": "ehn'eta",
+         "pronunciation": "AYN-ay-tah",
+         "definition": "thirty"
+      },
+      {
+         "word": "ibic",
+         "pronunciation": "ee-BIK",
+         "definition": "this"
+      },
+      {
+         "word": "ta'raysholan",
+         "pronunciation": "TAH-raysh-oh-lahn",
+         "definition": "thousand"
+      },
+      {
+         "word": "ehn",
+         "pronunciation": "ayhn",
+         "definition": "three"
+      },
+      {
+         "word": "adol",
+         "pronunciation": "AH-dohl",
+         "definition": "through"
+      },
+      {
+         "word": "dola",
+         "pronunciation": "DOH-lah",
+         "definition": "throughout, pervading, soaked"
+      },
+      {
+         "word": "goorar",
+         "pronunciation": "GOOR-ahr",
+         "definition": "throw"
+      },
+      {
+         "word": "orar",
+         "pronunciation": "or-AHR",
+         "definition": "thunder"
+      },
+      {
+         "word": "ca'nara",
+         "pronunciation": "KAH-nah-RAH",
+         "definition": "time"
+      },
+      {
+         "word": "orikih",
+         "pronunciation": "aw-REE-kee",
+         "definition": "tiny"
+      },
+      {
+         "word": "haryc",
+         "pronunciation": "HAR-eesh",
+         "definition": "tired"
+      },
+      {
+         "word": "bah",
+         "pronunciation": "bah",
+         "definition": "to (dative)"
+      },
+      {
+         "word": "at",
+         "pronunciation": "aht",
+         "definition": "to (direction, movement)"
+      },
+      {
+         "word": "cetar'narir",
+         "pronunciation": "see-TAR-nar-REER",
+         "definition": "to *put the boot in*"
+      },
+      {
+         "word": "shukalar",
+         "pronunciation": "SHOO-kah-lar",
+         "definition": "to crush (in any sense), to conquer"
+      },
+      {
+         "word": "beviiragir",
+         "pronunciation": "beh-veer-AH-geer",
+         "definition": "to fish - literally, spearing fish, but now applied to any method of catching fish"
+      },
+      {
+         "word": "bralir",
+         "pronunciation": "BRAH-leer",
+         "definition": "to get the upper hand, to succeed"
+      },
+      {
+         "word": "Rangir!",
+         "pronunciation": "RAN-geer",
+         "definition": "To hell with it!"
+      },
+      {
+         "word": "onidir",
+         "pronunciation": "oh-NEE-deer",
+         "definition": "to sweat"
+      },
+      {
+         "word": "tal'onidir",
+         "pronunciation": "tahl-ON-ee-DEE-neer",
+         "definition": "to sweat blood, to *give blood* - idiom for going that extra mile or making an all-out effort"
+      },
+      {
+         "word": "ibi'tuur",
+         "pronunciation": "EE-bee-toor",
+         "definition": "today"
+      },
+      {
+         "word": "Ib'tuur jatne tuur ash'ad kyr'amur",
+         "pronunciation": "EEB- toor JAHT-nay toor ASH-ahd-KEE-ram-oor",
+         "definition": "Today is a good day for someone else to die - Mando saying (because they're not daft...)"
+      },
+      {
+         "word": "tome",
+         "pronunciation": "TOH-may",
+         "definition": "together (plural)"
+      },
+      {
+         "word": "nakar'tuur",
+         "pronunciation": "NAH-kah-TOOR",
+         "definition": "tomorrow (lit"
+      },
+      {
+         "word": "lalat",
+         "pronunciation": "LAH-laht",
+         "definition": "tongue"
+      },
+      {
+         "word": "naysol",
+         "pronunciation": "NAY-sol",
+         "definition": "too many"
+      },
+      {
+         "word": "ani",
+         "pronunciation": "AH-nee",
+         "definition": "total, complete"
+      },
+      {
+         "word": "tigaanur",
+         "pronunciation": "tee-GAH-noor",
+         "definition": "touch"
+      },
+      {
+         "word": "at",
+         "pronunciation": "aht",
+         "definition": "towards, at (motion), to"
+      },
+      {
+         "word": "striilir",
+         "pronunciation": "STREE-leer",
+         "definition": "track, trail"
+      },
+      {
+         "word": "aruetii",
+         "pronunciation": "ah-roo-AY-tee",
+         "definition": "traitor, foreigner, outsider"
+      },
+      {
+         "word": "aruetyc",
+         "pronunciation": "AH-roo-eh-TEESH",
+         "definition": "traitorous"
+      },
+      {
+         "word": "aruetiise",
+         "pronunciation": "ah-roo-ay-TEE-say",
+         "definition": "traitors, foreigners, outsiders"
+      },
+      {
+         "word": "gaanaylir",
+         "pronunciation": "gahn-AY-leer",
+         "definition": "trap, catch"
+      },
+      {
+         "word": "kurshi",
+         "pronunciation": "KOOR-shi",
+         "definition": "tree"
+      },
+      {
+         "word": "par'jila",
+         "pronunciation": "par-JEE-lah",
+         "definition": "triumphant"
+      },
+      {
+         "word": "haat",
+         "pronunciation": "haht",
+         "definition": "truth"
+      },
+      {
+         "word": "Haat, ijaa, haa'it",
+         "pronunciation": "Haht-i-JAH-hah-EET",
+         "definition": "Truth, honor, vision - words used to seal a pact."
+      },
+      {
+         "word": "kebbur",
+         "pronunciation": "KEH-boor",
+         "definition": "try, attempt"
+      },
+      {
+         "word": "Haili cetare!",
+         "pronunciation": "HI-lee set-AHR-ay",
+         "definition": "Tuck in! Enjoy! Lit. *Fill your boots.*"
+      },
+      {
+         "word": "ad'eta",
+         "pronunciation": "ahd-AY-tah",
+         "definition": "twenty"
+      },
+      {
+         "word": "t'ad",
+         "pronunciation": "tahd",
+         "definition": "two"
+     }
+   ]}

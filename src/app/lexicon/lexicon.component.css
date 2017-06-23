@@ -28,3 +28,16 @@ li {
     margin-left: 16%;
     padding: 3px;
 }
+
+thead {
+    overflow: auto;
+    width: 100%;
+    background-color: #215dbc;
+    color: #fff;
+}
+
+tbody {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}

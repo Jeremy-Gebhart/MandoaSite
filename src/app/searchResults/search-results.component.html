@@ -1,7 +1,10 @@
 <nav-bar></nav-bar>
 
 <div class="row">
-    <table class="table table-striped table-bordered top-margin">
+    <section *ngIf="showTable" id="searchTitle">
+        <p>Search results:</p>
+    </section>
+    <table id="searchTable" *ngIf="showTable" class="table table-striped table-bordered top-margin">
         <thead>
             <tr>
                 <td><strong>Word</strong></td>
@@ -11,12 +14,16 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let entry of entryArray">
-                <td class="col-md-2 col-sm-1">{{ entry.word }}</td>
-                <td class="col-md-2 col-sm-1">{{ entry.pronunciation }}</td>
-                <td class="col-md-2 col-sm-1">{{ entry.definition }}</td>
-                <td class="mandoa col-md-2 col-sm-1">{{ entry.word }}</td>
+            <tr *ngFor="let result of searchResults">
+                <td class="col-md-2 col-sm-1">{{ result.word }}</td>
+                <td class="col-md-2 col-sm-1">{{ result.pronunciation }}</td>
+                <td class="col-md-2 col-sm-1">{{ result.definition }}</td>
+                <td class="mandoa col-md-2 col-sm-1">{{ result.word }}</td>
             </tr>
         </tbody>
     </table>
+
+    <section *ngIf="showError">
+        <h3>No search results found</h3>
+    </section>
 </div>

@@ -5,11 +5,13 @@
     border-width: 1px;
     border-style: solid;
     border-color: #c4d9df #afc3ca #83afb7;
-    width: 377px;
-    height: 38px;
+    width: 359px;
+    height: 33px;
     padding: 6px 6px 6px 7px;
     margin-left: 69%;
     overflow: hidden;
+    margin-top: 7px;
+    font-size: 8pt;
 }
 
 #search,
@@ -19,12 +21,12 @@
 
 #search {
     padding: 5px 9px;
-    height: 25px;
+    height: 20px;
     width: 190px;
     border: 1px solid #a4c3ca;
     background: #f1f1f1;
     border-radius: 50px 3px 3px 50px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);;
 }
 
 #submitSearch {
@@ -36,15 +38,15 @@
     border-color: #7eba7c #578e57 #447d43;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3),
                 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-    height: 25px;
+    height: 20px;
     margin-left: 3px;
     padding: 0;
-    width: 70px;
+    width: 60px;
     cursor: pointer;
     font-weight: bold;
     color: #23441e;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    display: inline;
+    display: inline-block;
 }
 
 #submitSearch:hover {
@@ -80,9 +82,9 @@
 .switch {
     display: inline-block;
     font-weight: normal;
-    font-size: 8pt;
-    width: 90px;
-    height: 20px;
+    font-size: 7pt;
+    width: 82px;
+    height: 18px;
     margin-left: 5px;
     padding: 2px;
     border-radius: 70px;

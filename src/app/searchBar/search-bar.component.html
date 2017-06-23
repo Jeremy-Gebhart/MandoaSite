@@ -1,5 +1,5 @@
-﻿<div class="row">
-    <section id="searchbox" class="col-md-4">
+﻿<div class="row">   
+    <section id="searchbox" class="col-md-1">
         <form #searchForm="ngForm" (ngSubmit)="searchForTerm()" novalidate>
             <input id="search" name="search" type="search" [(ngModel)]="searchTerm" placeholder="Type here">
             <section id="radio-switch" class="switch">
@@ -11,5 +11,5 @@
             <input id="submitSearch" type="button" (click)="searchForTerm()" value="Search">
         </form>
     </section>
-    <section class="col-md-8"></section>
+    <section class="col-md-11"></section>
 </div>

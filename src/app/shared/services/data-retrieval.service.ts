@@ -23,6 +23,6 @@ export class DataRetrievalService {
 
         return this.http.get(fullUrl)
                         .map((res: Response) => res.json())
-                        .catch((error: any) => Observable.throw(error.json().error || 'Server Error'));
+                        .catch((error: any) => Observable.throw(error.json || 'Server Error'));
     }
 }
