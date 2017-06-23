@@ -10,6 +10,7 @@ import { NavComponent } from './shared/navbar/navbar.component';
 import { AppRoutingModule } from './shared/app.routing';
 import { SearchbarComponent } from './searchBar/search-bar.component';
 import { SearchResultsComponent } from './searchResults/search-results.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 import { WordEntry } from './shared/models/word-entry';
 import { LexiconComponent } from './lexicon/lexicon.component';
@@ -36,7 +37,8 @@ import { TruncatePipe } from './shared/pipes/trunc.pipe';
         LexiconComponent,
         TruncatePipe,
         SearchbarComponent,
-        SearchResultsComponent
+        SearchResultsComponent,
+        FooterComponent
     ],
     providers: [
         DataRetrievalService,
