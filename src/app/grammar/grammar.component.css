@@ -1,7 +1,16 @@
-article {
+h3, article {
     width: 60%;
+    margin-left: 25%;
 }
 
 h1 {
     text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 30%;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }

@@ -14,7 +14,7 @@ import { GrammarComponent } from '../grammar/grammar.component';
             { path: 'home', component: HomeComponent },
             { path: 'lexicon', component: LexiconComponent },
             { path: 'search', component: SearchResultsComponent },
-            { path: 'grammar', component: GrammarComponent}
+            { path: 'grammar', component: GrammarComponent},
             { path: '**', component: ErrorComponent}
         ])
     ],

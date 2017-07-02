@@ -103,11 +103,13 @@
 #englishlbl {
     border-radius: 70px 0 0 70px;
     /*padding: 0 1px 0 1px;*/
+    height: 13px;
 }
 
 #mandoalbl {
     border-radius: 0 70px 70px 0;
     /*padding: 0 1px 0 1px;*/
+    height: 13px;
 }
 
 
