@@ -1,0 +1,65 @@
+#initialList {
+    width: 14%;
+    margin-left: 43%;
+}
+
+#nextWord {
+    margin-left: 35%;
+}
+
+#flashcard {
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#outOfLettersMessage {
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+table {
+    width: 60%;
+    margin-left: 20.25%;
+}
+
+ul {
+    list-style: none;
+    margin: 5;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+thead {
+    overflow: auto;
+    width: 100%;
+    background-color: #215dbc;
+    color: #fff;
+}
+
+tbody {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+.top-margin {
+    margin-top: 15px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.bordered {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}

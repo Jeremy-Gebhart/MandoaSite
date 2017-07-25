@@ -1,8 +1,37 @@
 <nav-bar></nav-bar>
 
 <section>
-    
-</section>
+    <section *ngIf="showLetterPicker" class="top-margin centered">
+        <h1>Please choose a starting place:</h1>
+        <section id="initialList" class="bordered">
+            <a (click)="getFlashCardList('a')">A</a>&nbsp;<a (click)="getFlashCardList('b')">B</a>&nbsp;
+            <a (click)="getFlashCardList('c')">C</a>&nbsp;<a (click)="getFlashCardList('d')">D</a>&nbsp;
+            <a (click)="getFlashCardList('e')">E</a>&nbsp;<a (click)="getFlashCardList('g')">G</a>&nbsp;
+            <a (click)="getFlashCardList('h')">H</a>&nbsp;<a (click)="getFlashCardList('i')">I</a>&nbsp;
+            <a (click)="getFlashCardList('j')">J</a>&nbsp;<a (click)="getFlashCardList('k')">K</a>&nbsp;
+            <a (click)="getFlashCardList('l')">L</a>&nbsp;<a (click)="getFlashCardList('m')">M</a>&nbsp;
+            <a (click)="getFlashCardList('n')">N</a>&nbsp;<a (click)="getFlashCardList('o')">O</a>&nbsp;
+            <a (click)="getFlashCardList('p')">P</a>&nbsp;<a (click)="getFlashCardList('r')">R</a>&nbsp;
+            <a (click)="getFlashCardList('s')">S</a>&nbsp;<a (click)="getFlashCardList('t')">T</a>&nbsp;
+            <a (click)="getFlashCardList('u')">U</a>&nbsp;<a (click)="getFlashCardList('v')">V</a>&nbsp;
+            <a (click)="getFlashCardList('w')">W</a>&nbsp;<a (click)="getFlashCardList('y')">Y</a>
+        </section>
+    </section>
 
+    <section *ngIf="showFlashCard">
+        <h2 class="centered">Flashcard Review</h2><br>
+        <article *ngIf="showOutOfLettersMessage === false" id="flashcard" class="margin-top bordered centered">
+            <p>Word: {{ currentWord.word }}</p>
+            <p>Pronunciation: {{ currentWord.pronunciation }}</p>
+            <p>Definition: {{ currentWord.definition }}</p>
+            <section>Mando&#39;a Script: <p class="mandoa">{{ currentWord.word }}</p></section>
+        </article>
+        <article *ngIf="showOutOfLettersMessage === true" class="centered margin-top bordered" id="outOfLettersMessage">
+            This list of flashcards for this letter has been completed. Please choose another letter in the alphabet to continue.
+        </article>
+        <button id="nextWord" class="btn btn-primary" (click)="setNextFlashcard()">Next Flashcard</button>
+        <button id="letterList" class="btn btn-primary" (click)="toggleLetterPickerOn()">Choose Letter</button>
+    </section>
+</section>
 
 <footer-section></footer-section>

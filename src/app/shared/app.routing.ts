@@ -5,7 +5,8 @@ import { HomeComponent } from '../home/home.component';
 import { ErrorComponent } from '../error/error.component';
 import { LexiconComponent } from '../lexicon/lexicon.component';
 import { SearchResultsComponent } from '../searchResults/search-results.component';
-import { GrammarComponent } from '../grammar/grammar.component'; 
+import { GrammarComponent } from '../grammar/grammar.component';
+import { FlashcardComponent } from '../flashcard/flashcard.component'
 
 @NgModule({
     imports: [
@@ -15,6 +16,7 @@ import { GrammarComponent } from '../grammar/grammar.component';
             { path: 'lexicon', component: LexiconComponent },
             { path: 'search', component: SearchResultsComponent },
             { path: 'grammar', component: GrammarComponent},
+            { path: 'flashcard', component: FlashcardComponent },
             { path: '**', component: ErrorComponent}
         ])
     ],

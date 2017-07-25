@@ -278,7 +278,7 @@ export class LexiconComponent {
       this.showTable = true;
     }
 
-    loadPrepositionsHVocab() {
+    loadPrepositionsVocab() {
         this.dataSVC.getWordList('prepositions', 'mandoaSorted').subscribe(entries => {
             this.entryArray = entries['items'];
             console.log(this.entryArray);
